@@ -1,0 +1,167 @@
+body{
+    color: rgb(95, 49, 49);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: rgb(95, 49, 49);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn{
+    border: 2px solid black;
+    padding: 1px;
+    border-radius: 30px;
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(95, 49, 49);
+    color: white;
+}
+
+ul{
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+span{
+    color: black;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family:'Lucida Sans';
+}
+
+img{
+    width: 100px;
+    height: 300px;
+}
+.responsive{
+        width:400px;
+        height: 400px;
+  }
+   
+img{
+        width: 200px;
+        height: 300px;
+   }
+.cat{
+    width:150px;
+        height: 200px;
+    }
+
+
+.first-background {
+    background-color: white;
+}
+.second-background {
+    background-color: rgb(95, 49, 49);
+
+}
+
+.canto {
+    width: 62px;
+    height: 62px;
+}
+
+h4{
+    color:black;
+}
+
+
+h3{
+    color:black;
+}
+
+
+.minha-bibli{
+    color:black;
+}
+
+#ladoalado{
+    display: flex;
+    margin-left: 10px;
+    gap: 20px;
+}
+
+.button-verMais {
+    display: flex;
+    align-items:end;
+}
+
+#verMais {
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    height: 20px;
+}
+
+#verMais:hover{
+    background-color: rgb(95, 49, 49);
+    color: white;
+}
+
+#card-clima {
+	background-color: rgb(95, 49, 49);
+	width: 20%;
+	height: 30%;
+}
+
+#img-clima {
+    width: 60%; 
+    margin-left: 13%;
+    height: 30%;
+    margin-left: 20%;
+}
+
+p {
+    font-size: 60;
+	color: white; 
+    margin-left: 27%;
+}
+
+#txt-temp #txt-cidade{
+    color: white;
+}
