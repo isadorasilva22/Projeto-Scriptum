@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Login</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/login.css'>
+    <link rel='stylesheet' type='text/html' media='screen' href='../view/cadastro_user.html'>
+    <link rel='icon' type="image/icon" href="../view/S.png">
+    <!-- FONT AWESOME -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
+    <script src='../js/login.js'></script>
+</head>
+<!--Login <br>
+    <a href="../view/home.html ">Entrar</a> >>>>>> Após o Login - terá que redirecionar para essa página-->
+
+<body>
+    <div id="main-login">
+        <div class="left-login">
+            <h1>Faça o login<br>E viva uma aventura literária</h1>
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <div class="login-name">
+                    <h1>LOGIN</h1>
+
+                    <button id="button">
+                        <img class="icon" src="../view/S.png" style="filter: invert(1);" alt="theme">
+                    </button>
+
+                </div>
+                <div class="textfield">
+                    <label for="usuario">E-mail</label>
+                    <input type="text" id="email" name="usuario" placeholder="Usuário">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="password" name="senha" placeholder="Senha">
+                </div>
+                <button class="button-login" id="button-login" onClick="loginUsuario()"> Login </button><br>
+                <div class="cadastro">
+                    <p><a href="../view/cadastro_user.html">Cadastre-se</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
